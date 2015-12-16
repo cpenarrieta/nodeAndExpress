@@ -1,1 +1,1 @@
-node server/expressApp.js
+web: node server/expressApp.js
