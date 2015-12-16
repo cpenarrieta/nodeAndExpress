@@ -5,7 +5,7 @@
   "author": "Hack Reactor",
   "license": "Copyright 2013, Hack Reactor. All rights reserved.",
   "scripts": {
-    "start": "node server/basic-server.js",
+    "start": "node server/expressApp.js",
     "test": "mocha server/spec"
   },
   "devDependencies": {
@@ -16,5 +16,12 @@
   "dependencies": {
     "body-parser": "^1.14.1",
     "express": "^4.13.3"
+  },
+  "engines": {
+    "node": "0.12.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cpenarrieta/nodeAndExpress.git"
   }
 }
